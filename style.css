@@ -1,0 +1,39 @@
+body
+{
+	background-color: black;
+}
+
+.bot
+{
+	background-image: url("bot.jpg");
+}
+
+.human 
+{
+	background-image: url("human.jpg");
+}
+
+.action
+{
+	text-align: center;
+}
+
+.container
+{
+	margin: 100px auto;
+	width: 300px;
+}
+
+.cell
+{
+	background-color: gray;
+	border: 2px solid black;
+	float: left;
+	width: 96px;
+	height: 96px;
+}
+
+.cell:hover
+{
+	border-color: #C0C0C0;
+}
